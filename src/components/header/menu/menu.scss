@@ -1,0 +1,8 @@
+@import '../../../index.scss';
+
+.Menu {
+    font-size: 2em;
+    @media screen and (min-width: $width-breakpoint) {
+        display: none;
+    }
+}
