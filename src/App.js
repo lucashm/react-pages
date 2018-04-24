@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import Header from './components/header/Header';
 import './App.scss';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Main from './Main';
 
 class App extends Component {
   render() {
     return (
-      <Header></Header>
+      <Router>
+        <Main />
+      </Router>
     );
   }
 }
