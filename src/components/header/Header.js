@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../../assets/logo.png';
-import './header.css';
+import './header.scss';
 
 class Header extends Component {
   render() {
@@ -8,7 +8,7 @@ class Header extends Component {
       <div className="App-header">
         <div className="App-header-left">
           <img className="App-logo" src={logo} alt="reabilitacao-logo"></img>
-          <h1 className="App-title">Reabilitação fisico-motora</h1>
+          <h1>Reabilitação fisico-motora</h1>
         </div>
         <div className="App-header-right">
           <h4>Documentos</h4>

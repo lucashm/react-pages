@@ -1,0 +1,45 @@
+.App-logo {
+    /* animation: App-logo-spin infinite 20s linear; */
+    height: 40px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 60px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &-left {
+        min-width: 350px;
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: flex-start;
+        >img {
+            margin-right: 10px;
+        }
+        >h1 {
+            font-size: 1.5em;
+        }
+    }
+    &-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .App-header {
+        &-left {
+            width: 100%;
+            justify-content: center;
+        }
+        &-right {
+            display: none;
+        }
+    }
+}
